@@ -8,7 +8,7 @@ A simple decorator library, written using the es6 syntax, includes an @autobind,
     git clone git@github.com:annder/Decorare.git
 ```
 
-But you need to compile the es6 grammar [bable] (https://babeljs.io) for es5 syntax, and need [nodejs] (https://nodejs.org/en) the compiler.
+But you need to compile the es6 grammar [bable](https://babeljs.io) for es5 syntax, and need [nodejs](https://nodejs.org/en) the compiler.
 
 ## There are several decorators:
 
