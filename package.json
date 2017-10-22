@@ -1,0 +1,28 @@
+{
+  "name": "structs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Mixin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack": "latest",
+    "babel-preset-env": "latest",
+    "babel-plugin-transform-class-properties": "latest",
+    "babel-plugin-transform-decorators-legacy": "latest",
+    "babel-plugin-transform-async-to-generator": "latest",
+    "babel-plugin-transform-regenerator": "latest",
+    "babel-plugin-transform-runtime": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-loader": "latest",
+    "babel-core": "latest",
+    "lodash": "latest",
+    "decimal": "latest"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "",
+  "license": "ISC"
+}
