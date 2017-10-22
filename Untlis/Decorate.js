@@ -5,6 +5,7 @@ import _, {
     isObject,
     isFunction
 } from "lodash";
+const {defineProperty} = Object;
 
 function handleFunc(fn) {
     var args = fn;
@@ -16,6 +17,7 @@ function handleFunc(fn) {
         return result;
     };
 };
+
 function Decorate(...func) {
     const isFunc = func.every(x => isFunction(x));
     if (!isFunc) {
@@ -42,4 +44,6 @@ function Decorate(...func) {
         }
     }
 }
-export {Decorate};
+export {
+    Decorate
+};
